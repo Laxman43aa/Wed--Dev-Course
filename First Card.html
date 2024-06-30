@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Card Design</title>
+    <style>
+        .card{
+            
+            box-sizing: border-box;
+            border: 2px solid rgba(160, 161, 161, 0.281);
+            height: 95vh;
+            width: 31vw;
+            /* margin: 50px; */
+            /* padding: 14px; */
+            position: relative;
+            top: 48px;
+            left: 50px;
+            border-radius: 15px;
+            background-color: white;
+          
+
+           
+        }
+        .imgbox{
+            position: relative;
+            top: 8px;
+            left: 10px;
+            padding: 3px;
+            border-radius: 15px;
+
+
+        }
+        .bar{
+            display: flex;
+        }
+       
+        div ul li{
+            box-sizing: border-box;
+            padding: 6px;
+            margin: 8px;
+            list-style: none;
+            /* outline: 2px solid black;
+            outline-offset: -2px;
+         */
+         border: 2px solid rgba(216, 213, 213, 0.836);
+         border-radius: 30px; 
+         text-size: 16px;
+         color: rgba(104, 104, 104, 0.705);
+             position: relative;
+             left: -31px;
+             background-color: white;
+             font-weight: lighter;
+             font-size: small;
+        }
+        .cover{
+
+            border: 2px solid gainsboro;
+            background-color:ghostwhite;
+            width: 38vw;
+            height: 110vh;
+            position: relative;
+            top: 2px;
+            left: 310px;
+            box-shadow: 5px 5px 15px 5px #888888;
+
+        }
+       h6{
+        box-sizing: border-box;
+        position: relative;
+        bottom: -14px;
+        left: 132px;
+        font-size: medium;
+        /* border: 2px solid blue; */
+    /* border: 2px solid black; */
+    
+    padding: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 4px;
+        border-radius: 40px;
+        background-color:#CCFFFF ;
+        color: rgba(34, 147, 240, 0.925);
+        display: inline-block;
+       }
+       h2{
+        padding: 6px;
+        position:relative;
+        left: 8px;
+        top: -14px;
+        text-shadow: 5px 9px 9px #3b3939;
+
+       }
+       .para{
+        box-sizing: content-box;
+        line-height: 25px;
+        position: relative;
+        left: 12px;
+        top: -25px;
+        text-size:16px;
+        font-size: medium;
+        text-shadow: 5px 8px 7px #3b3939;
+        
+       
+       }
+
+    </style>
+</head>
+
+<body>
+    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+   <div class="cover"> <div class="card">
+        <img  height="225" width="392" class="imgbox" src="nature.png">
+        <ul class="bar">
+            <li>Nature</li>
+            <li>Lake</li>
+        </ul>
+        <h2>Lago di Braies</h2>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut doloremque nam magni unde distinctio non error,
+            sunt aperiam explicabo! Aliquam vero enim quos?</p>
+            <h6>Read more</h6>
+            </div>
+    </div>
+</body>
+
+</html>
