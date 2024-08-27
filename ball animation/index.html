@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition and Animation</title>
+    <style>
+        .container {
+            height: 80vh;
+            width: 90vw;
+            background-color: blue;
+            position: relative;
+        }
+
+        .boll {
+            height: 121px;
+            width: 121px;
+            background-color: red;
+            position: absolute;
+            bottom:0;
+            left: 0;
+            border-radius: 70px;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode;  */
+            animation: aniX 3s linear infinite, aniY 1s ease-out infinite alternate;
+
+        }
+
+        @keyframes aniX {
+            from {
+                left: 0;
+
+            }
+
+            to {
+                left: 100%;
+            }
+        }
+
+        @keyframes aniY {
+            from {
+                bottom: 0;
+
+            }
+
+            to {
+                bottom: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="boll"></div>
+    </div>
+</body>
+
+</html>
