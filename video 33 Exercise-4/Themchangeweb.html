@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Color NavBar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --text-color:rgba(252, 253, 253, 0.979);
+            --seccolor:rgba(52, 67, 206, 0.562);
+            --thrdcolor:rgba(125, 154, 184, 0.979);
+            --defpad:6px;
+            --defmar:4px;
+            --defbrd:30px; 
+        }
+        /* :root{
+            --text-color:rgba(250, 253, 251, 0.966);
+            --seccolor:rgb(91, 206, 158);
+            --thrdcolor:rgba(251, 251, 252, 0.945);
+            --defpad:6px;
+            --defmar:4px;
+            --defbrd:30px;
+        } */
+        body{
+            background-color: var(--thrdcolor);
+        }
+      ul{
+        display: flex;
+        position: relative;
+        left: 18px;
+      }
+       
+        ul li{
+            list-style: none;
+            padding: var(--defpad);
+            margin: var(--defmar);
+            padding-left: 10px;
+            margin-left: 35px;
+            color: white;
+            font-family: "Poppins";
+            text-decoration: none;
+            
+
+            
+        }
+        .nav{
+            background-color: var(--seccolor);
+
+        }
+       
+        ul li a{
+            color: var(--text-color);
+            text-decoration: none;
+    
+        }
+
+       
+        
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+                
+            </ul>
+        
+    </div>
+</body>
+</html>
